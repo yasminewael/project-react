@@ -1,0 +1,14 @@
+nav, h3, ul, li, .link{
+    background-color: #000000 ;
+}
+
+h3, .link{
+    color: whitesmoke
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color:whitesmoke
+}

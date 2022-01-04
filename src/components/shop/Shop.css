@@ -1,0 +1,45 @@
+.shop-Container{
+    width: 90%;
+    margin: 0 auto;
+}
+h1{
+    color:black;
+    border-bottom:1px solid black
+}
+.productDetails{
+    color:red
+}
+span{
+    font-weight: bolder;
+    color:black
+}
+p{
+    color:rgb(88, 88, 88)
+}
+.img{
+    height: 60%;
+
+}
+img{
+    width:100%;
+    height: 100%;
+        border-radius: 1rem;
+        background-color:#E9E1E1
+
+}
+.shopLink{
+    text-decoration: none;
+    border:1px solid #C4C4C4;
+    height: 70vh;
+    border-radius: 1rem;
+    background-color:#E9E1E1;
+    box-shadow: 2px 2px 20px black;
+
+}
+.card-details{
+     background-color:#E9E1E1;
+   
+}
+.card-title{
+    color:black
+}
