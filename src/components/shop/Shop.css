@@ -2,9 +2,10 @@
     width: 90%;
     margin: 0 auto;
 }
-h1{
+.page-title{
     color:black;
-    border-bottom:1px solid black
+    border-bottom:1px solid black;
+    text-align: left;
 }
 .productDetails{
     color:red

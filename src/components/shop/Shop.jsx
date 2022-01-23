@@ -18,7 +18,7 @@ const Shop = () => {
 
   return (
     <div className="shop-Container">
-      <h1 className="mt-5 mx-5">Shop</h1>
+      <h1 className="page-title mt-5 mx-5">Shop</h1>
       <section className="d-flex flex-wrap justify-content-center">
         {products.map((product) => {
           console.log("single product", product);

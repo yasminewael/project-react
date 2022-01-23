@@ -21,7 +21,7 @@ const Counter = () => {
 <>
 <div>
     <div className ="w-50 m-auto text-center">
-    <h1 className="mt-5">The Counter</h1>    
+    <h1 className="page-title mt-5">The Counter</h1>    
     <h2 className="mt-5">Counter: {counter}</h2>
     <CounterAction increament={increament} decrement={decrement}/>
     </div>
