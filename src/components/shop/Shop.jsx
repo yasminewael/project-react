@@ -17,6 +17,7 @@ const Shop = () => {
   };
 
   return (
+
     <div className="">
       <h1 className="mt-5 mx-5">Shop</h1>
       <section className="d-flex flex-wrap justify-content-center">
