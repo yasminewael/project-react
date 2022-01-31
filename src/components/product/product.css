@@ -1,9 +1,3 @@
-.productContainer{
-    border:1px solid red;
-}
-.imgContainer{
-    border:1px solid black
-}
-.details{
-    border:1px solid aqua
+.product-section{
+    font-size: 1.3rem;
 }

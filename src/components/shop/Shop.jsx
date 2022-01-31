@@ -17,38 +17,27 @@ const Shop = () => {
   };
 
   return (
-    <div className="shop-Container">
+    <div className="">
       <h1 className="mt-5 mx-5">Shop</h1>
       <section className="d-flex flex-wrap justify-content-center">
         {products.map((product) => {
-          console.log("single product", product);
           return (
-            <Link
-              to={`/shop/${product.id}`}
-              key={product.id}
-              className="shopLink w-25 me-5 my-3 py-2 px-2"
-            >
-              <div className="img d-flex">
-                <img className="" src={product.image} alt="" />
-              </div>
+            <div className="productCardContaier w-25 my-3 p-2 me-5">
+              <figure className=" d-flex justify-content-center">
+                <img src={product.image} alt="" />
+              </figure>
+              <h5 className="m-4 text-center"> {product.title}</h5>
+              <p className="text-warning">Rating: {product.rating.rate}</p>
+              <p className="">Price: {product.price} EGP.</p>
 
-
-
-
-
-
-
-
-
-
-+              <h6 className="card-details card-title mt-3 text-center"> {product.title}</h6>
-              <p className="card-details">
-                <span className="card-details">Price:</span> {product.price}
-              </p>
-              <p className="card-details">
-                <span className="card-details">Rating:</span> {product.rating.rate}
-              </p>
-            </Link>
+              <Link
+                to={`/shop/${product.id}`}
+                key={product.id}
+                className="btn btn-warning d-flex justify-content-center"
+              >
+                More Details
+              </Link>
+            </div>
           );
         })}
       </section>
