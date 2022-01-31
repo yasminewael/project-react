@@ -1,14 +1,20 @@
-nav, .nav-title, .ul-nav, .li-nav, .link{
-    background-color: #000000 ;
+.navbar{
+    background-color: whitesmoke;
+    /* color:#f8eac1 */
 }
-
-.nav-title, .link{
-    color: whitesmoke
-}
-
-.link{
+.nav-item {
+    color:black;
+    margin: 0 20px;
     text-decoration: none;
+    font-size:1.1rem
 }
-.link:hover{
-    color:whitesmoke
+.nav-brand{
+    color: #ffc107;
+    font-weight: bolder;
+    font-size: 1.5rem;
 }
+
+.nav-brand:hover, .nav-item:hover{
+    color: #ffc107;
+}
+

@@ -3,28 +3,25 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 
-const Navbar = () => {
+const NavbarComponent = () => {
   return (
 
-    <nav className="d-flex justify-content-around">
-      <h3 className="nav-title mt-1">Market</h3>
-      <ul
-        className="ul-nav d-flex justify-content-between mt-2"
-        style={{ listStyle: "none" }}
-      >
-        <li className="li-nav mx-1">
-          <Link className="link" to="/counter">Counter</Link>
-        </li>
-        <li className="li-nav mx-1">
-          <Link className="link" to="/shop">shop</Link>
-        </li>
-        <li className="li-nav mx-1">
-          <Link className="link" to="/todo">Todo</Link>
-        </li>
-      </ul>
-    </nav>
 
-  );
+<>
+<nav className="navbar navbar-expand-lg">
+  <div>
+  <Link className="nav-brand mx-5 text-decoration-none"  to="/">Market</Link>
+  </div>
+  <div className="ms-auto align-items-center mx-5">
+  <Link className="nav-item"  to="/">Home</Link>
+        <Link className="nav-item" to="/shop">shop</Link>
+        <Link className="nav-item" to="/counter">Counter</Link>
+
+  </div>
+</nav>
+
+</>
+    );
 };
 
-export default Navbar;
+export default NavbarComponent;
