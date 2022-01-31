@@ -1,0 +1,47 @@
+.todo-wrapper{
+    margin-bottom: 5rem;
+}
+
+label{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+input{
+    background-color:whitesmoke;
+    color:black;
+    border-radius: 5px;
+}
+
+button{
+    background-color: black;
+    color: whitesmoke;
+    border:none;
+    font-weight: bolder;
+
+}
+button:hover{
+    background-color: whitesmoke;
+    color:black
+}
+
+.no-items, h5{
+    color:#747458;
+    font-weight: bolder;
+
+}
+.todo-list{
+    border:2px solid black;
+    width: 75%;
+    margin: 0 auto;
+    border-radius:5px;
+}
+.text{
+    color:whitesmoke;
+    font-weight: bold;
+
+}
+form{
+    background-color: #ffc107;
+    border-radius: 5px;
+}
