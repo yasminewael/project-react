@@ -15,6 +15,7 @@ const NavbarComponent = () => {
   <div className="ms-auto align-items-center mx-5">
   <Link className="nav-item"  to="/">Home</Link>
         <Link className="nav-item" to="/shop">shop</Link>
+        <Link className="nav-item" to="/todo">Todo</Link>
         <Link className="nav-item" to="/counter">Counter</Link>
 
   </div>
