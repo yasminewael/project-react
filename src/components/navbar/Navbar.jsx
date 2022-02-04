@@ -16,7 +16,7 @@ const NavbarComponent = () => {
   <Link className="nav-item"  to="/">Home</Link>
         <Link className="nav-item" to="/shop">shop</Link>
         <Link className="nav-item" to="/todo">Todo</Link>
-        {/* <Link className="nav-item" to="/counter">Counter</Link> */}
+        <Link className="nav-item" to="/counter">Counter</Link>
 
   </div>
 </nav>
