@@ -6,15 +6,16 @@
     color:black;
     margin: 0 20px;
     text-decoration: none;
-    font-size:1.1rem
+    font-size:1.4rem;
+    
 }
 .nav-brand{
-    color: #ffc107;
     font-weight: bolder;
-    font-size: 1.5rem;
+    color:black
 }
 
-.nav-brand:hover, .nav-item:hover{
-    color: #ffc107;
-}
 
+
+.nav-item:hover, .nav-brand:hover{
+    color:black
+}

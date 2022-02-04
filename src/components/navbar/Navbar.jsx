@@ -8,9 +8,9 @@ const NavbarComponent = () => {
 
 
 <>
-<nav className="navbar navbar-expand-lg">
+<nav className="navbar navbar-expand-lg p-0">
   <div>
-  <Link className="nav-brand mx-5 text-decoration-none"  to="/">Market</Link>
+  <h1><Link className="nav-brand mx-5 text-decoration-none"  to="/">Market</Link></h1>
   </div>
   <div className="ms-auto align-items-center mx-5">
   <Link className="nav-item"  to="/">Home</Link>
