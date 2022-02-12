@@ -7,12 +7,14 @@ import Counter from "./components/counter/Counter";
 import Shop from "./components/shop/Shop";
 import Product from "./components/product/Product";
 import Todo from "./components/todo/Todo";
+import Home from "./components/home/Home";
 function App() {
   return (
     <div>
       <Router>
         <Navbar />
         <Routes>
+          <Route path="/" element={<Home/>}/>
           <Route path="/counter" element={<Counter />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/:id" element={<Product />} />
